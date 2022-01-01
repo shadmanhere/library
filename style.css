@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background:#086E7D;
+    color:#FFF89A;
+}
+
+.navbar h1{
+    padding: 10;
+    font-size: 5rem;
+}
