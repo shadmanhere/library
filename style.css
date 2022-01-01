@@ -1,12 +1,32 @@
+:root{
+    --color-dark: #086E7D;
+    --btn-background: #F47340;
+}
+
 body{
     margin: 0;
 }
 .navbar{
-    background:#086E7D;
+    background: var(--color-dark);
     color:#FFF89A;
 }
 
 .navbar h1{
     padding: 10;
     font-size: 5rem;
+    display: inline;
+}
+
+.navbar button{
+    display: inline;
+    float: right;
+    padding: 10;
+    margin-top: 22;
+    margin-right: 20;
+    background: var(--btn-background);
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
 }
